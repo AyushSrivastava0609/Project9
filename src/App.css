@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wishlist{
+  box-shadow: 0px 0px 18px rgb(20, 164, 237) ;
+  border:1px solid rgb(146, 144, 144);
+  height: 65vh;
+  margin: auto;
+  width: 30vw;
+  margin-top: 10%;
+  border-radius: 10px 40px 10px;
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgb(201, 248, 237) 34%, rgb(183, 221, 247) 66%);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.inpt{
+  width: 90%;
+  margin: auto;
+  margin-top: 10%;
+  /* margin-left: ; */
+  font-size: 22px;
+  height: 10vh;
+  padding-left: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#wish{
+  
+  width: 50%;
+  height: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  height:3.2vh ;
+  margin-left: 3px;
+  border-radius: 10%;
+}
+.datalist{
+margin-top: -50px;
+font-size: 22px;
+}
+.but{
+  border-style: none;
+  background-color: transparent;
 }
