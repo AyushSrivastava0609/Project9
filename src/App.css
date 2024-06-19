@@ -1,41 +1,64 @@
 
-.wishlist{
-  box-shadow: 0px 0px 18px rgb(20, 164, 237) ;
+
+body{
+  background: rgb(241, 226, 249);
+}
+.ToDoList{
+  /* box-shadow: 0px 0px 18px rgb(20, 164, 237) ; */
   border:1px solid rgb(146, 144, 144);
-  height: 65vh;
+  height: 70vh;
   margin: auto;
-  width: 30vw;
-  margin-top: 10%;
-  border-radius: 10px 40px 10px;
-  background: rgb(0,212,255);
-  background: linear-gradient(90deg, rgb(201, 248, 237) 34%, rgb(183, 221, 247) 66%);
+  width: 50vw;
+  margin-top: 8%;
+  border-radius: 10px;
+  background: rgb(247, 242, 250);
+  /* background: linear-gradient(90deg, rgb(201, 248, 237) 34%, rgb(183, 221, 247) 66%); */
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .inpt{
   width: 90%;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
   /* margin-left: ; */
   font-size: 22px;
   height: 10vh;
   padding-left: 10px;
   align-items: center;
 }
-#wish{
+#ToDo{
   
   width: 50%;
   height: 20px;
 }
 .btn{
+  background: rgb(210, 153, 243);
   height:3.2vh ;
   margin-left: 3px;
   border-radius: 10%;
 }
 .datalist{
+  /* border: 2px solid black; */
 margin-top: -50px;
 font-size: 22px;
 }
 .but{
-  border-style: none;
-  background-color: transparent;
+  border-radius: 7px;
+  /* background-color: transparent; */
+  transform: scale(0.9); 
+  margin-right: 10px;
+  padding-bottom: 0px;
+  padding-top: 2px;
+}
+.but1{
+  transform: scale(1.5); 
+  margin-right: 5px;
+  
+}
+li{
+  border-radius: 5px ;
+  background: rgb(231, 204, 246);
+  padding: 1px;
+  padding-left: 5px;
+  margin-right: 10px;
+  margin-bottom: 1px;
 }

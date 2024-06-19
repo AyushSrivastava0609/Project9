@@ -3,22 +3,22 @@ import './App.css';
 import UserInput from './Components/UserInput';
 import Data from './Components/Data';
 export default function App() {
-  const [wishList,setWishList]=useState([]);
-  function addToWishList(wish){
-    setWishList([...wishList,wish]);
+  const [ToDoList,setToDoList]=useState([]);
+  function addToToDoList(ToDo){
+    setToDoList([...ToDoList,ToDo]);
   }
-  function clearWishList(){
-    setWishList([]);
+  function clearToDoList(){
+    setToDoList([]);
   }
-  function removeFromWishList(index) {
-    const newWishlist = [...wishList];
-    newWishlist.splice(index, 1);
-    setWishList(newWishlist);
+  function removeFromToDoList(index) {
+    const newToDoList = [...ToDoList];
+    newToDoList.splice(index, 1);
+    setToDoList(newToDoList);
 }
   return (
-    <div className='wishlist'>
-      <UserInput addToWishList={addToWishList} clearWishList={clearWishList}/>
-      <Data wishList={wishList} removeFromWishList={removeFromWishList}/>
+    <div className='ToDoList'>
+      <UserInput addToToDoList={addToToDoList} clearToDoList={clearToDoList}/>
+      <Data ToDoList={ToDoList} removeFromToDoList={removeFromToDoList}/>
     </div>
   )
 }
